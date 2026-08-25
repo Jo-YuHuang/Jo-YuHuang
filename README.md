@@ -4,7 +4,7 @@
 
 I build reliable systems where software meets the physical world. My current work spans **Embedded C, C++, Python, sensor integration, real-time control, and electromechanical design** — with a particular interest in robotics and dependable automation.
 
-I am preparing for software robotics roles, including opportunities at **CMR Surgical**.
+I am preparing for software robotics roles.
 
 ## Featured projects
 
