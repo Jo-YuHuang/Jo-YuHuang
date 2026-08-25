@@ -22,7 +22,7 @@ Designed and implemented an autonomous robotic buggy in Embedded C on a PIC micr
 
 Used UART logging to calibrate sensor thresholds and collaborated in a two-person team using GitHub for parallel development and integration. The buggy achieved top-tier performance in final testing, demonstrating reliable system integration.
 
-[View the project repository →](https://github.com/ME3-HECM/final-project-djs)
+[View the personal project repository →](https://github.com/Jo-YuHuang/autonomous-buggy-navigation)
 
 ### Energy-saving automatic outside light
 **Embedded C · ADC · LDR · software clock**
