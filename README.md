@@ -53,49 +53,18 @@ Produced plots and density heatmaps to evaluate model behaviour and communicate 
 ### Design, Make & Test — Closed-Loop Electromechanical Wrapping System
 **Mechanical design · Arduino Nano Every · Raspberry Pi 5 · DC motor control · Hall-effect sensing · PID control · experimental validation**
 
-Developed and experimentally validated, in a four-person engineering team, an intelligent wrapping subsystem for an automated core–shell yarn machine. The machine was designed to produce repeatable high-precision yarns for research in wearable electronics and biomedical sensing.
+Developed and experimentally validated, in a four-person engineering team, an intelligent wrapping subsystem for an automated core–shell yarn machine intended to support wearable-electronics and biomedical-sensing research.
 
-The manufactured subsystem combined a 30 W hollow-shaft DC motor, rotating arm, removable shell-yarn spool, passive eddy-current damping, and a counterweight to reduce imbalance. An Arduino Nano Every received target speed commands, measured rotational speed using a Honeywell Hall-effect sensor and counterweight magnet, and drove the motor through a VNH5019 PWM motor driver. A Raspberry Pi 5 logged the target and measured speed during control testing.
-
-<p align="center">
-  <img src="docs/assets/dmt-wrapping-assembly.jpeg" alt="Manufactured intelligent wrapping subsystem" width="760">
-</p>
-<p align="center"><em>Manufactured wrapping assembly: motor, rotating arm, shell-yarn spool and support structure.</em></p>
-
-#### Measured performance
-
-| Validation activity | Result | Engineering significance |
-| --- | --- | --- |
-| Closed-loop speed control | **0.176%** average steady-state error | Below the 0.5% target for stable wrapping speed. |
-| Step-response settling | **0.237 s** | Met the sub-0.25 s design target in the final tuned configuration. |
-| Hall-sensor validation | **0.44%** maximum error against a laser tachometer | Validated the speed-feedback signal across 1,500–3,000 RPM. |
-| Operating speed | Stable to at least **3,000 RPM** | Exceeded the 2,500 RPM operating requirement. |
-| Structural dynamics | No dominant resonance at **41.7 Hz** operating frequency | Dominant arm resonances occurred at approximately **193–232 Hz**, well above normal operation. |
-| Vibration transmission | Motor-to-arm response below ~**6 m s⁻² N⁻¹**; base response below ~**1.1 m s⁻² N⁻¹** | Indicates limited vibration transmission into the wider machine structure during the stationary impact test. |
-
-#### Test evidence
-
-<table>
-  <tr>
-    <td width="50%"><img src="docs/assets/dmt-impact-hammer-test.jpeg" alt="Impact hammer vibration test"><br><em>Impact-hammer setup for assessing arm response, motor-to-arm transfer and base transmissibility.</em></td>
-    <td width="50%"><img src="docs/assets/dmt-speed-control-test-setup.jpeg" alt="PID speed-control test setup"><br><em>Bench setup used to tune PID control and validate Hall-effect speed feedback.</em></td>
-  </tr>
-  <tr>
-    <td><img src="docs/assets/dmt-direct-arm-frf.png" alt="Direct arm frequency response"><br><em>Direct arm excitation: resonant peaks lie far above the 41.7 Hz operating frequency.</em></td>
-    <td><img src="docs/assets/dmt-base-transmissibility-frf.png" alt="Base transmissibility frequency response"><br><em>Base-plate response remained low, indicating limited vibration transfer.</em></td>
-  </tr>
-</table>
+The subsystem combines a 30 W hollow-shaft DC motor, rotating arm, removable shell-yarn spool, passive eddy-current damping, Hall-effect speed feedback, Arduino control, and Raspberry Pi logging. The final tuned controller achieved stable operation at normal speeds while meeting the key speed-response targets.
 
 <p align="center">
-  <img src="docs/assets/dmt-pid-speed-response.jpeg" alt="Tuned PID speed response" width="900">
+  <img src="https://raw.githubusercontent.com/Jo-YuHuang/closed-loop-electromechanical-wrapping-system/main/docs/assets/final-cad-model.png" alt="Final CAD model of the complete wrapping machine" width="820">
 </p>
-<p align="center"><em>Final tuned PID speed response over commanded speed changes. The 1,000 RPM data were excluded from the aggregate performance metrics because Hall-sensor resolution was unsuitable at that low speed; normal operation was above this range.</em></p>
+<p align="center"><em>Final CAD model of the complete enclosed machine.</em></p>
 
-#### Engineering decisions and learning
+**Test highlights:** **0.176%** average steady-state error · **0.237 s** settling time · **0.44%** maximum Hall-sensor error against a laser tachometer · stable testing to **3,000 RPM** · no dominant structural resonance near the **41.7 Hz** operating frequency.
 
-Early PID configurations caused substantial startup oscillation. Reducing the proportional and integral gains and enforcing a lower PWM clamp prevented the motor from dropping below its sustainable drive threshold, producing stable operation at normal running speeds. No derivative term was used because the Hall-sensor resolution amplified measurement noise at low speeds.
-
-The impact-hammer test measured stationary structural response with the arm restrained, rather than motor-driven vibration during wrapping. The results therefore reduce the risk of resonance at the intended operating speed but do not replace a rotating operational-vibration test. Five of six primary design areas were verified; final wrap-angle verification and full system testing depended on delayed integration with the microscope and other machine subsystems.
+[View the full project repository, CAD, testing evidence and validation results →](https://github.com/Jo-YuHuang/closed-loop-electromechanical-wrapping-system)
 
 ### Rope Bridge Launcher Design Project
 **Mechanical design · concept selection · engineering calculations · prototyping**
