@@ -4,7 +4,7 @@
 
 I am a final-year Mechanical Engineering MEng student at Imperial College London with a strong interest in **medical and surgical robotics, healthcare AI, and medical imaging**. I build reliable systems where software meets the physical world, combining embedded firmware, control, robotics, numerical modelling, and mechanical design.
 
-My current work spans **Embedded C, C++, Python, ROS 2, sensor integration, real-time control, and biomedical image analysis**. I am seeking graduate opportunities in medical robotics, medical devices, and AI-enabled healthcare technologies, including software robotics roles at **CMR Surgical**.
+My current work spans **Embedded C, C++, Python, ROS 2, sensor integration, real-time control, numerical modelling, and mechanical design**. I am seeking graduate opportunities in robotics, embedded systems, medical devices, and software for AI-enabled engineering applications.
 
 ## Featured projects
 
@@ -42,16 +42,6 @@ Produced plots and density heatmaps to evaluate model behaviour and communicate 
 
 [View the Python simulation repository →](https://github.com/Jo-YuHuang/bacterial-colonisation-reaction-diffusion)
 
-### Medical image analysis and deep learning
-**Python · NumPy · pandas · scikit-learn · OpenCV · PyTorch · MONAI · in progress**
-
-Extending a literature review of biomedical image segmentation into a practical computational project. Building an end-to-end workflow covering image preprocessing, segmentation, model training and evaluation, and visualisation, progressing from classical analysis tools toward PyTorch and MONAI.
-
-The earlier review compared segmentation methods across CT, MRI, ultrasound, and histopathology, including CNNs, FCNs, and U-Net approaches. It evaluated noise, anatomical variability, limited annotated data, generalisation, and segmentation reliability in tumour and organ delineation.
-
-*Repository link to be added as the project develops.*
-
-## Design and engineering projects
 
 ### Intelligent thread-wrapping machine
 **Mechanical design · Arduino · Raspberry Pi · Hall-effect sensing · PID control · testing**
@@ -81,7 +71,7 @@ Designed and prototyped a rope bridge launcher intended to support safer gibbon 
 - Embedded C and PIC microcontroller firmware
 - C++ software and ROS 2 robotics
 - Python numerical modelling, data analysis, and simulation
-- PyTorch, MONAI, OpenCV, NumPy, SciPy, pandas, and scikit-learn
+- NumPy, SciPy, pandas, and scikit-learn
 - Real-time control, PID, PWM, ADC, I²C, UART, and sensor calibration
 - Forward/inverse kinematics, trajectory generation, and feedback control
 - Testing, debugging, telemetry, vibration analysis, and experimental validation
@@ -96,7 +86,6 @@ Designed and prototyped a rope bridge launcher intended to support safer gibbon 
 - [x] Publish the second embedded-C project with a technical README
 - [ ] Upload the C++/ROS 2 project from Visual Studio Code
 - [x] Publish the Python numerical simulation
-- [ ] Publish the medical image analysis project
 - [ ] Add design-project photographs, videos, drawings, and test evidence
 - [ ] Add build instructions, tests, and concise engineering write-ups to each repository
 
