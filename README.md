@@ -12,7 +12,7 @@ My interest in robotics began during my A-levels, when I led a team in a robotic
 
 I have shaped my final year around this direction through Robot Dynamics & Control, Advanced Control, Machine Learning, Robotic Manipulators & Automation Technology, and a year-long medical robotics research project at Imperial’s Hamlyn Centre for Robotic Surgery. Alongside this academic direction, my engineering projects have given me hands-on experience at the interface between software and physical systems.
 
-## Featured projects
+
 ## Featured projects
 
 ### Robotics Software & Control Project — C++, ROS 2
