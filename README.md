@@ -31,7 +31,7 @@ Designed and implemented a fully autonomous outdoor-lighting controller in Embed
 
 Implemented a sun-synchronised software clock with drift correction, daylight-saving-time handling, and leap-year logic. The code was structured modularly for maintainability and long-term reliability.
 
-*Repository link to be added.*
+[View the personal project repository →](https://github.com/Jo-YuHuang/energy-saving-outside-light)
 
 ### Python numerical simulation: bacterial colonisation
 **Python · reaction-diffusion PDEs · numerical methods · data analysis**
@@ -93,7 +93,7 @@ Designed and prototyped a rope bridge launcher intended to support safer gibbon 
 - [x] Create a public profile portfolio
 - [x] Feature the autonomous buggy project
 - [x] Add CV-based technical descriptions
-- [ ] Publish the second embedded-C project with a technical README
+- [x] Publish the second embedded-C project with a technical README
 - [ ] Upload the C++/ROS 2 project from Visual Studio Code
 - [ ] Publish the Python numerical simulation
 - [ ] Publish the medical image analysis project
