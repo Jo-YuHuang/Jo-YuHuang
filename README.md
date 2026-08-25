@@ -40,7 +40,7 @@ Developed a Python model of bacterial colonisation using reaction-diffusion part
 
 Produced plots and density heatmaps to evaluate model behaviour and communicate results clearly, strengthening skills in numerical modelling, data analysis, and engineering interpretation of simulated results.
 
-*Repository link to be added.*
+[View the Python simulation repository →](https://github.com/Jo-YuHuang/bacterial-colonisation-reaction-diffusion)
 
 ### Medical image analysis and deep learning
 **Python · NumPy · pandas · scikit-learn · OpenCV · PyTorch · MONAI · in progress**
@@ -95,7 +95,7 @@ Designed and prototyped a rope bridge launcher intended to support safer gibbon 
 - [x] Add CV-based technical descriptions
 - [x] Publish the second embedded-C project with a technical README
 - [ ] Upload the C++/ROS 2 project from Visual Studio Code
-- [ ] Publish the Python numerical simulation
+- [x] Publish the Python numerical simulation
 - [ ] Publish the medical image analysis project
 - [ ] Add design-project photographs, videos, drawings, and test evidence
 - [ ] Add build instructions, tests, and concise engineering write-ups to each repository
