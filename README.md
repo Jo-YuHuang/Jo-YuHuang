@@ -77,6 +77,8 @@ Completed an individual review of biomedical image segmentation under the superv
 
 The work identified research gaps and emerging hybrid approaches for robust automated segmentation in medical imaging and healthcare workflows. This was a literature-review project rather than an active software implementation project.
 
+[Read the full literature review and research summary →](https://github.com/Jo-YuHuang/medical-image-segmentation-literature-review)
+
 ## Additional engineering experience
 
 - **Imperial Formula Racing — Dyno team member:** supported dyno-related work in the engine team, gaining hands-on experience in test preparation, performance evaluation, and reliability-focused engineering.
