@@ -109,7 +109,6 @@ The work identified research gaps and emerging hybrid approaches for robust auto
 - SolidWorks, mechanical design, mechanism design, engineering drawings and experimental testing
 
 ## Portfolio roadmap
-## Portfolio roadmap
 
 - [x] Create a public profile portfolio
 - [x] Feature the autonomous buggy project
@@ -117,7 +116,7 @@ The work identified research gaps and emerging hybrid approaches for robust auto
 - [x] Publish the second embedded-C project with a technical README
 - [ ] Upload the C++/ROS 2 project from Visual Studio Code
 - [x] Publish the Python numerical simulation
-- [ ] Add design-project photographs, videos, drawings, and test evidence
+- [x] Add design-project photographs, videos, drawings, and test evidence
 - [ ] Add build instructions, tests, and concise engineering write-ups to each repository
 
 ---
