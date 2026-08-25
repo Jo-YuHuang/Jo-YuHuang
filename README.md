@@ -67,11 +67,22 @@ The subsystem combines a 30 W hollow-shaft DC motor, rotating arm, removable she
 [View the full project repository, CAD, testing evidence and validation results →](https://github.com/Jo-YuHuang/closed-loop-electromechanical-wrapping-system)
 
 ### Rope Bridge Launcher Design Project
-**Mechanical design · concept selection · engineering calculations · prototyping**
+**Pneumatic systems · projectile mechanics · CAD · design for manufacture · workshop manufacture · risk assessment**
 
-Designed and prototyped a rope bridge launcher intended to support safer gibbon crossings. The project included concept selection, design calculations, engineering drawings, and prototype manufacture.
+Designed and manufactured, as the **Projectile Engineer** in a five-person Imperial College London team, a 1:10-scale pneumatic launcher for installing a single-rope bridge across a rainforest road in a gibbon-conservation concept. The design was selected through weighted decision matrices and developed into a workshop-manufactured prototype within a **£300 budget**.
 
-*Design drawings, prototype photographs, and the final outcome to be added.*
+The engineering work covered a 6 mm barbed peg, 25 J projectile-energy target, 20.5 mm pressure-cylinder bore, 6 bar compressed-air design point, O-ring sealing, centre-of-gravity placement, pressure-cylinder stress analysis, and toleranced aluminium clamp manufacture. The prototype used milling, turning, reaming, boring, grinding, laser cutting, and 3D printing across 11 manufactured parts.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Jo-YuHuang/rope-bridge-launcher/main/docs/assets/launcher-cad.png" alt="CAD model of the pneumatic rope bridge launcher" width="820">
+</p>
+<p align="center"><em>Final CAD model of the pneumatic rope bridge launcher.</em></p>
+
+**Evidence highlights:** **£276.92** prototype bill of materials · **500 N** estimated peg withdrawal force · **25 J** required projectile energy · pressure-cylinder calculation safety factor **98.8** · projectile calculation safety factor **133** · clamp measurements generally within specified tolerance.
+
+This remains a **scaled engineering prototype**, not a field-ready wildlife or projectile system: full-scale pneumatic and projectile values, operational launch and penetration testing, noise, long-term rope behaviour, and ecological/legal deployment would require further specialist validation.
+
+[View the full project repository, design report and engineering evidence →](https://github.com/Jo-YuHuang/rope-bridge-launcher)
 
 ## Research experience
 
