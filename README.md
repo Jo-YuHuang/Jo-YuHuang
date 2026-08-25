@@ -1,4 +1,4 @@
-# Hi, I'm Jo-Yu Huang 👋
+# Hi, I'm Joy Huang 👋
 
 ## Software, robotics and embedded systems engineer
 
