@@ -2,20 +2,27 @@
 
 ## Software, robotics and embedded systems engineer
 
-I am a final-year Mechanical Engineering MEng student at Imperial College London with a strong interest in **medical and surgical robotics, healthcare AI, and medical imaging**. I build reliable systems where software meets the physical world, combining embedded firmware, control, robotics, numerical modelling, and mechanical design.
+I am a final-year Mechanical Engineering MEng student at Imperial College London specialising in robotics, control and intelligent electromechanical systems, with hands-on experience developing embedded C and Python software for autonomous and closed-loop systems. I am experienced in microcontrollers, motor control, PID control, sensor integration, I²C/UART communication, numerical modelling and experimental validation, with C++ and ROS 2 currently under development. I am particularly motivated to apply software, control and robotics engineering to the development of safe and reliable medical robotic systems.
 
-My current work spans **Embedded C, C++, Python, ROS 2, sensor integration, real-time control, numerical modelling, and mechanical design**. I am seeking graduate opportunities in robotics, embedded systems, medical devices, and software for AI-enabled engineering applications.
+## Personal story
+
+My interest in healthcare is personal. Having seen close family members experience serious and long-term health problems, I have wanted to use engineering in a field where my work can make a meaningful difference to people’s lives. This became more tangible through a conversation with a surgeon about the number of patients waiting for treatment and the limited number of procedures a surgeon can perform each day. Hearing how surgical robotics could improve efficiency and help more patients receive treatment showed me how software, control and physical-system engineering could contribute to a healthcare challenge I genuinely care about.
+
+My interest in robotics began during my A-levels, when I led a team in a robotics competition at the University of Cambridge and achieved third place. I enjoyed seeing software, mechanics and control come together to make a physical system behave intelligently. At Imperial College London, my interests in healthcare and robotics have increasingly converged into a clear ambition to work in medical and surgical robotics.
+
+I have shaped my final year around this direction through Robot Dynamics & Control, Advanced Control, Machine Learning, Robotic Manipulators & Automation Technology, and a year-long medical robotics research project at Imperial’s Hamlyn Centre for Robotic Surgery. Alongside this academic direction, my engineering projects have given me hands-on experience at the interface between software and physical systems.
 
 ## Featured projects
+## Featured projects
 
-### Robotics software and control project
+### Robotics Software & Control Project — C++, ROS 2
 **C++ · ROS 2 · robotic kinematics and control · in progress**
 
 Developing a simulated robotic manipulator in C++ and ROS 2. The project is progressing from C++ fundamentals through forward and inverse kinematics, trajectory generation, feedback control, and an integrated simulation demonstrating robot modelling, motion planning, and control.
 
 *Repository link to be added when the first publishable milestone is ready.*
 
-### Autonomous embedded-systems buggy navigation
+### Autonomous Embedded Systems Buggy — Embedded C / PIC18
 **Embedded C · PIC microcontroller · PWM · I²C · UART**
 
 Designed and implemented an autonomous robotic buggy in Embedded C on a PIC microcontroller, integrating motor control, colour sensing, and navigation logic. Developed PWM-based motion control and a calibrated RGB-sensor pipeline over I²C, including ambient-light subtraction, normalisation, and threshold-based classification.
@@ -24,7 +31,7 @@ Used UART logging to calibrate sensor thresholds and collaborated in a two-perso
 
 [View the personal project repository →](https://github.com/Jo-YuHuang/autonomous-buggy-navigation)
 
-### Energy-saving automatic outside light
+### Autonomous Lighting Controller — Embedded C / PIC18
 **Embedded C · ADC · LDR · software clock**
 
 Designed and implemented a fully autonomous outdoor-lighting controller in Embedded C. An LDR and ADC detect ambient light and identify sunrise and sunset, while averaged adaptive thresholds and hysteresis provide robust switching behaviour.
@@ -33,7 +40,7 @@ Implemented a sun-synchronised software clock with drift correction, daylight-sa
 
 [View the personal project repository →](https://github.com/Jo-YuHuang/energy-saving-outside-light)
 
-### Python numerical simulation: bacterial colonisation
+### Python Numerical Simulation Project
 **Python · reaction-diffusion PDEs · numerical methods · data analysis**
 
 Developed a Python model of bacterial colonisation using reaction-diffusion partial differential equations. Ran numerical simulations across varying spatial resolutions and analysed convergence behaviour.
@@ -43,7 +50,7 @@ Produced plots and density heatmaps to evaluate model behaviour and communicate 
 [View the Python simulation repository →](https://github.com/Jo-YuHuang/bacterial-colonisation-reaction-diffusion)
 
 
-### Intelligent thread-wrapping machine
+### Design, Make & Test — Closed-Loop Electromechanical Wrapping System
 **Mechanical design · Arduino · Raspberry Pi · Hall-effect sensing · PID control · testing**
 
 Designed and manufactured a high-speed wrapping subsystem for automated production of core–shell energy-harvesting yarns intended for wearable and biomedical sensing research at Imperial College London's Hamlyn Centre.
@@ -54,12 +61,21 @@ Experimental validation achieved **0.176% average steady-state error** and a **0
 
 *Photos, demonstration videos, test results, and technical documentation to be added.*
 
-### Rope bridge launcher
+### Rope Bridge Launcher Design Project
 **Mechanical design · concept selection · engineering calculations · prototyping**
 
 Designed and prototyped a rope bridge launcher intended to support safer gibbon crossings. The project included concept selection, design calculations, engineering drawings, and prototype manufacture.
 
 *Design drawings, prototype photographs, and the final outcome to be added.*
+
+## Research experience
+
+### Medical Image Segmentation — Literature Review
+**Biomedical imaging · CT · MRI · ultrasound · histopathology**
+
+Completed an individual review of biomedical image segmentation under the supervision of Prof. Mihailo Ristic at Imperial College London. Compared classical, machine-learning and deep-learning approaches, including CNNs, FCNs and U-Net, while evaluating noise, anatomical variability, limited annotated data, generalisation and segmentation reliability for tumour and organ delineation.
+
+The work identified research gaps and emerging hybrid approaches for robust automated segmentation in medical imaging and healthcare workflows. This was a literature-review project rather than an active software implementation project.
 
 ## Additional engineering experience
 
@@ -68,16 +84,13 @@ Designed and prototyped a rope bridge launcher intended to support safer gibbon 
 
 ## Technical focus
 
-- Embedded C and PIC microcontroller firmware
-- C++ software and ROS 2 robotics
-- Python numerical modelling, data analysis, and simulation
-- NumPy, SciPy, pandas, and scikit-learn
-- Real-time control, PID, PWM, ADC, I²C, UART, and sensor calibration
-- Forward/inverse kinematics, trajectory generation, and feedback control
-- Testing, debugging, telemetry, vibration analysis, and experimental validation
-- SolidWorks, Blender, mechanical design, mechanisms, and engineering drawings
-- Git and GitHub collaborative development
+- Embedded C, Python, MATLAB; C++ (developing)
+- PIC18F67K40, Arduino, DC motor control, PID control, PWM, ADC and sensor integration
+- I²C, UART, Git and GitHub
+- ROS 2 (developing), robot control and numerical modelling
+- SolidWorks, mechanical design, mechanism design, engineering drawings and experimental testing
 
+## Portfolio roadmap
 ## Portfolio roadmap
 
 - [x] Create a public profile portfolio
