@@ -38,42 +38,6 @@ Used UART logging to calibrate sensor thresholds and collaborated in a two-perso
 
 [View the personal project repository →](https://github.com/Jo-YuHuang/autonomous-buggy-navigation)
 
-### Supporting engineering projects
-
-#### Python Numerical Simulation Project
-**Python · reaction-diffusion PDEs · numerical methods · data analysis**
-
-Developed a Python model of bacterial colonisation using reaction-diffusion partial differential equations. Ran numerical simulations across varying spatial resolutions and analysed convergence behaviour.
-
-Produced plots and density heatmaps to evaluate model behaviour and communicate results clearly, strengthening skills in numerical modelling, data analysis, and engineering interpretation of simulated results.
-
-[View the Python simulation repository →](https://github.com/Jo-YuHuang/bacterial-colonisation-reaction-diffusion)
-
-
-#### Autonomous Lighting Controller — Embedded C / PIC18
-**Embedded C · ADC · LDR · software clock**
-
-Designed and implemented a fully autonomous outdoor-lighting controller in Embedded C. An LDR and ADC detect ambient light and identify sunrise and sunset, while averaged adaptive thresholds and hysteresis provide robust switching behaviour.
-
-Implemented a sun-synchronised software clock with drift correction, daylight-saving-time handling, and leap-year logic. The code was structured modularly for maintainability and long-term reliability.
-
-[View the personal project repository →](https://github.com/Jo-YuHuang/energy-saving-outside-light)
-
-#### Rope Bridge Launcher Design Project
-**Pneumatic systems · projectile mechanics · CAD · design for manufacture · workshop manufacture · risk assessment**
-
-Designed and manufactured, as the **Projectile Engineer** in a five-person Imperial College London team, a 1:10-scale pneumatic launcher for installing a single-rope bridge across a rainforest road in a gibbon-conservation concept. The design was selected through weighted decision matrices and developed into a workshop-manufactured prototype within a **£300 budget**.
-
-The engineering work covered a 6 mm barbed peg, 25 J projectile-energy target, 20.5 mm pressure-cylinder bore, 6 bar compressed-air design point, O-ring sealing, centre-of-gravity placement, pressure-cylinder stress analysis, and toleranced aluminium clamp manufacture. The prototype used milling, turning, reaming, boring, grinding, laser cutting, and 3D printing across 11 manufactured parts.
-
-
-
-**Evidence highlights:** **£276.92** prototype bill of materials · **500 N** estimated peg withdrawal force · **25 J** required projectile energy · pressure-cylinder calculation safety factor **98.8** · projectile calculation safety factor **133** · clamp measurements generally within specified tolerance.
-
-This remains a **scaled engineering prototype**, not a field-ready wildlife or projectile system: full-scale pneumatic and projectile values, operational launch and penetration testing, noise, long-term rope behaviour, and ecological/legal deployment would require further specialist validation.
-
-[View the full project repository, design report and engineering evidence →](https://github.com/Jo-YuHuang/rope-bridge-launcher)
-
 ## Research experience
 
 ### Medical Image Segmentation — Literature Review
@@ -104,6 +68,42 @@ Building a simulated robotic manipulator in C++ and ROS 2, progressing through r
 
 The first public milestone will include testable requirements for position tracking, joint and velocity limits, and a controlled safe response to invalid commands or communication loss. This is an active-development project; it will be published once those simulation and verification results are available.
 
+
+## Supporting engineering projects
+
+### Python Numerical Simulation Project
+**Python · reaction-diffusion PDEs · numerical methods · data analysis**
+
+Developed a Python model of bacterial colonisation using reaction-diffusion partial differential equations. Ran numerical simulations across varying spatial resolutions and analysed convergence behaviour.
+
+Produced plots and density heatmaps to evaluate model behaviour and communicate results clearly, strengthening skills in numerical modelling, data analysis, and engineering interpretation of simulated results.
+
+[View the Python simulation repository →](https://github.com/Jo-YuHuang/bacterial-colonisation-reaction-diffusion)
+
+
+### Autonomous Lighting Controller — Embedded C / PIC18
+**Embedded C · ADC · LDR · software clock**
+
+Designed and implemented a fully autonomous outdoor-lighting controller in Embedded C. An LDR and ADC detect ambient light and identify sunrise and sunset, while averaged adaptive thresholds and hysteresis provide robust switching behaviour.
+
+Implemented a sun-synchronised software clock with drift correction, daylight-saving-time handling, and leap-year logic. The code was structured modularly for maintainability and long-term reliability.
+
+[View the personal project repository →](https://github.com/Jo-YuHuang/energy-saving-outside-light)
+
+### Rope Bridge Launcher Design Project
+**Pneumatic systems · projectile mechanics · CAD · design for manufacture · workshop manufacture · risk assessment**
+
+Designed and manufactured, as the **Projectile Engineer** in a five-person Imperial College London team, a 1:10-scale pneumatic launcher for installing a single-rope bridge across a rainforest road in a gibbon-conservation concept. The design was selected through weighted decision matrices and developed into a workshop-manufactured prototype within a **£300 budget**.
+
+The engineering work covered a 6 mm barbed peg, 25 J projectile-energy target, 20.5 mm pressure-cylinder bore, 6 bar compressed-air design point, O-ring sealing, centre-of-gravity placement, pressure-cylinder stress analysis, and toleranced aluminium clamp manufacture. The prototype used milling, turning, reaming, boring, grinding, laser cutting, and 3D printing across 11 manufactured parts.
+
+
+
+**Evidence highlights:** **£276.92** prototype bill of materials · **500 N** estimated peg withdrawal force · **25 J** required projectile energy · pressure-cylinder calculation safety factor **98.8** · projectile calculation safety factor **133** · clamp measurements generally within specified tolerance.
+
+This remains a **scaled engineering prototype**, not a field-ready wildlife or projectile system: full-scale pneumatic and projectile values, operational launch and penetration testing, noise, long-term rope behaviour, and ecological/legal deployment would require further specialist validation.
+
+[View the full project repository, design report and engineering evidence →](https://github.com/Jo-YuHuang/rope-bridge-launcher)
 
 ## Additional engineering experience
 
