@@ -81,20 +81,29 @@ This remains a **scaled engineering prototype**, not a field-ready wildlife or p
 
 Completed an individual review of biomedical image segmentation under the supervision of Prof. Mihailo Ristic at Imperial College London. Compared classical, machine-learning and deep-learning approaches, including CNNs, FCNs and U-Net, while evaluating noise, anatomical variability, limited annotated data, generalisation and segmentation reliability for tumour and organ delineation.
 
-The work identified research gaps and emerging hybrid approaches for robust automated segmentation in medical imaging and healthcare workflows. This was a literature-review project rather than an active software implementation project.
+The work identified research gaps and emerging hybrid approaches for robust automated segmentation in medical imaging and healthcare workflows. This was a completed literature-review project rather than an implementation project. It now provides the theoretical foundation for the Python and PyTorch work described under Current development.
 
 [Read the full literature review and research summary →](https://github.com/Jo-YuHuang/medical-image-segmentation-literature-review)
+
+## Current development
 
 ### Medical Image Segmentation — Python, PyTorch | Sep 2026 – Present
 **Python · PyTorch · computer vision · CNNs · U-Net · model evaluation**
 
-- Developing a practical medical image segmentation project to translate prior literature research on classical, machine-learning and deep-learning segmentation methods into an implemented computer-vision workflow.
+- Extending the completed medical image segmentation literature review into a practical computer-vision implementation, translating its comparison of classical, machine-learning and deep-learning methods into an experimentally testable workflow.
 - Currently developing practical Python and PyTorch skills in image preprocessing, convolutional neural networks, and model training and evaluation, progressing toward implementation of a U-Net-based segmentation pipeline on a public medical imaging dataset.
 - Building on prior theoretical study of CNNs, FCNs and U-Net architectures and segmentation evaluation methods including the Dice coefficient and IoU, with the aim of experimentally investigating model performance, generalisation and reliability.
 
 *This project is currently in development. The implementation code, experiments and results will be uploaded once the work is complete and ready to publish.*
 
 ## Current development
+
+### Robotic Manipulator Simulation — C++ & ROS 2
+**C++ · ROS 2 · robotic kinematics · trajectory generation · feedback control · active development**
+
+Building a simulated robotic manipulator in C++ and ROS 2, progressing through robot modelling, forward and inverse kinematics, Jacobian-based reasoning, trajectory generation, and feedback control.
+
+The first public milestone will include testable requirements for position tracking, joint and velocity limits, and a controlled safe response to invalid commands or communication loss. This is an active-development project; it will be published once those simulation and verification results are available.
 
 ### Robotic Manipulator Simulation — C++ & ROS 2
 **C++ · ROS 2 · robotic kinematics · trajectory generation · feedback control · active development**
