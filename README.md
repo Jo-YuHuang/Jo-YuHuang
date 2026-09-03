@@ -85,6 +85,15 @@ The work identified research gaps and emerging hybrid approaches for robust auto
 
 [Read the full literature review and research summary →](https://github.com/Jo-YuHuang/medical-image-segmentation-literature-review)
 
+### Medical Image Segmentation — Python, PyTorch | Sep 2026 – Present
+**Python · PyTorch · computer vision · CNNs · U-Net · model evaluation**
+
+- Developing a practical medical image segmentation project to translate prior literature research on classical, machine-learning and deep-learning segmentation methods into an implemented computer-vision workflow.
+- Currently developing practical Python and PyTorch skills in image preprocessing, convolutional neural networks, and model training and evaluation, progressing toward implementation of a U-Net-based segmentation pipeline on a public medical imaging dataset.
+- Building on prior theoretical study of CNNs, FCNs and U-Net architectures and segmentation evaluation methods including the Dice coefficient and IoU, with the aim of experimentally investigating model performance, generalisation and reliability.
+
+*This project is currently in development. The implementation code, experiments and results will be uploaded once the work is complete and ready to publish.*
+
 ## Current development
 
 ### Robotic Manipulator Simulation — C++ & ROS 2
