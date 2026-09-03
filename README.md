@@ -96,21 +96,14 @@ The work identified research gaps and emerging hybrid approaches for robust auto
 
 *This project is currently in development. The implementation code, experiments and results will be uploaded once the work is complete and ready to publish.*
 
-## Current development
 
-### Robotic Manipulator Simulation — C++ & ROS 2
+### Robotic Manipulator Simulation — C++ & ROS 2 | Aug 2026 - Present
 **C++ · ROS 2 · robotic kinematics · trajectory generation · feedback control · active development**
 
 Building a simulated robotic manipulator in C++ and ROS 2, progressing through robot modelling, forward and inverse kinematics, Jacobian-based reasoning, trajectory generation, and feedback control.
 
 The first public milestone will include testable requirements for position tracking, joint and velocity limits, and a controlled safe response to invalid commands or communication loss. This is an active-development project; it will be published once those simulation and verification results are available.
 
-### Robotic Manipulator Simulation — C++ & ROS 2
-**C++ · ROS 2 · robotic kinematics · trajectory generation · feedback control · active development**
-
-Building a simulated robotic manipulator in C++ and ROS 2, progressing through robot modelling, forward and inverse kinematics, Jacobian-based reasoning, trajectory generation, and feedback control.
-
-The first public milestone will include testable requirements for position tracking, joint and velocity limits, and a controlled safe response to invalid commands or communication loss. This is an active-development project; it will be published once those simulation and verification results are available.
 
 ## Additional engineering experience
 
